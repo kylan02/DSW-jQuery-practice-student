@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$("h1").click(function(){
+		$("p").toggle();
+	});
+	$("#firstParagraph").click(function(){
+		$(".otherParagraphs").toggle();
+		$("img").toggle();
+	});
+});
